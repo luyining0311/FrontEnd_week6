@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr" data-theme="light" data-rh="lang,dir">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=0.86,maximum-scale=3,minimum-scale=0.86">
+    <meta name="generator" content="Docusaurus v2.0.0-beta.16">
+    <link rel="alternate" type="application/rss+xml" href="https://modernjs.dev/blog/rss.xml"
+        title="Modern.js - 现代 Web 工程体系 RSS Feed">
+    <link rel="alternate" type="application/atom+xml" href="https://modernjs.dev/blog/atom.xml"
+        title="Modern.js - 现代 Web 工程体系 Atom Feed">
+                      <!-- <script>
+              window.gfdatav1={"env":"prod","idc":"maliva","region":"MALIVA","ver":"1.0.0.90","canary":0,"garrModules":null,"isPreview":false,"microComponents":{}}</script><script>!function(e,r,n,t,s,o,a,i,c,l,d,f,m,p){o="precollect",a="getAttribute",i="addEventListener",l=function(e){(d=[].slice.call(arguments)).push(Date.now(),location.href),(e==o?l.p.a:l.q).push(d)},l.q=[],l.p={a:[]},e[s]=l,(f=document.createElement("script")).src=n+"?bid=modernjs_dev&globalName="+s,f.crossorigin=n.indexOf("sdk-web")>0?"anonymous":"use-credentials",r.getElementsByTagName("head")[0].appendChild(f),i in e&&(l.pcErr=function(r){r=r||e.event,(m=r.target||r.srcElement)instanceof Element||m instanceof HTMLElement?m[a]("integrity")?e[s](o,"sri",m[a]("href")||m[a]("src")):e[s](o,"st",{tagName:m.tagName,url:m[a]("href")||m[a]("src")}):e[s](o,"err",r.error)},l.pcRej=function(r){r=r||e.event,e[s](o,"err",r.reason||r.detail&&r.detail.reason)},e[i]("error",l.pcErr,!0),e[i]("unhandledrejection",l.pcRej,!0)),"PerformanceLongTaskTiming"in e&&((p=l.pp={entries:[]}).observer=new PerformanceObserver((function(e){p.entries=p.entries.concat(e.getEntries)})),p.observer.observe({entryTypes:["longtask","largest-contentful-paint","layout-shift"]}))}(window,document,"https://lf3-short.bytegoofy.com/slardar/fe/sdk-web/browser.cn.js",0,"Slardar")
+            </script> -->
+              
+<!-- 
+              <script>window.Slardar("init",{bid:"modernjs_dev"}),window.Slardar("start")</script>
+               -->
+    <title>Modern.js - 现代 Web 工程体系</title>
+    <meta data-rh="true" name="twitter:card" content="summary_large_image">
+    <meta data-rh="true" name="docsearch:language" content="zh-cn">
+    <link data-rh="true" rel="icon" href="https://modernjs.dev/img/favicon.ico">
+    <link rel="stylesheet" href="modernjs.css">
+    </head>
+    <link rel="canonical" href="https://modernjs.dev//" data-rh="true">
+    <link rel="alternate" href="https://modernjs.dev//" hreflang="zh-cn" data-rh="true">
+    <link rel="alternate" href="https://modernjs.dev//" hreflang="x-default" data-rh="true">
+
+    <!-- <script data-rh="true">function maybeInsertBanner(){window.__DOCUSAURUS_INSERT_BASEURL_BANNER&&insertBanner()}function insertBanner(){var n=document.getElementById("docusaurus-base-url-issue-banner-container");if(n){n.innerHTML='\n<div id="docusaurus-base-url-issue-banner" style="border: thick solid red; background-color: rgb(255, 230, 179); margin: 20px; padding: 20px; font-size: 20px;">\n   <p style="font-weight: bold; font-size: 30px;">Your Docusaurus site did not load properly.</p>\n   <p>A very common reason is a wrong site <a href="https://docusaurus.io/docs/docusaurus.config.js/#baseurl" style="font-weight: bold;">baseUrl configuration</a>.</p>\n   <p>Current configured baseUrl = <span style="font-weight: bold; color: red;">/</span>  (default value)</p>\n   <p>We suggest trying baseUrl = <span id="docusaurus-base-url-issue-banner-suggestion-container" style="font-weight: bold; color: green;"></span></p>\n</div>\n';var e=document.getElementById("docusaurus-base-url-issue-banner-suggestion-container"),s=window.location.pathname,r="/"===s.substr(-1)?s:s+"/";e.innerHTML=r}}window.__DOCUSAURUS_INSERT_BASEURL_BANNER=!0,document.addEventListener("DOMContentLoaded",maybeInsertBanner)</script><link rel="stylesheet" href="//lf-cdn-tos.bytescm.com/obj/static/webinfra/modern-js-website/assets/css/styles.b2a75d79.css"> -->
+    
+    <meta property="og:title" content="Modern.js - 现代 Web 工程体系" data-rh="true">
+    <meta name="description" content="The meta-framework suite designed from scratch for frontend-focused modern web development." data-rh="true">
+    <meta property="og:description" content="The meta-framework suite designed from scratch for frontend-focused modern web development."data-rh="true">
+    <meta name="docsearch:docusaurus_tag" content="default" data-rh="true">
+</head>
+
+<body class="navigation-with-keyboard" itemscope="" itemtype="http://schema.org/Organization" data-rh="class" style="overflow: visible;">
+    <script>!function () { function t(t) { document.documentElement.setAttribute("data-theme", t) } var e = function () { var t = null; try { t = localStorage.getItem("theme") } catch (t) { } return t }(); t(null !== e ? e : "light") }()</script>
+    <div id="__docusaurus">
+        <div id="docusaurus-base-url-issue-banner-container"></div>
+        <div role="region"><a href="https://modernjs.dev/#" class="skipToContent_xzcM">跳转到主文档</a></div>
+        <nav class="navbar navbar--fixed-top">
+            <div class="navbar__inner">
+                <div class="navbar__items"><button aria-label="Navigation bar toggle" class="navbar__toggle clean-btn"
+                        type="button" tabindex="0"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"
+                                d="M4 7h22M4 15h22M4 23h22"></path>
+                        </svg></button><a class="navbar__brand" href="https://htmlpreview.github.io/?https://github.com/sjtuLLWWTT/ModernJsIntro/blob/main/modern.html">
+                        <div class="navbar__logo"><img src="./images/modernjs-logo.svg"
+                                alt="Modernjs Logo" class="themedImage_mZea themedImage--light_vuKz"></div>
+                    </a><a class="navbar__item navbar__link" href="https://modernjs.dev/docs/start/mobile">开始</a><a
+                        class="navbar__item navbar__link" href="https://modernjs.dev/docs/guides/overview">指南</a><a
+                        class="navbar__item navbar__link" href="https://modernjs.dev/docs/apis/overview">API</a><a
+                        class="navbar__item navbar__link" href="https://modernjs.dev/blog">博客</a><a
+                        class="navbar__item navbar__link" href="https://modernjs.dev/coming-soon">社区</a></div>
+                <div class="navbar__items navbar__items--right"><a href="https://github.com/modern-js-dev/modern.js"
+                        target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-github-link"
+                        aria-label="GitHub repository"></a>
+                    <div class="toggle_kAJb toggle_L0Pe">
+                        <div class="toggleTrack_dk2J" role="button" tabindex="-1">
+                            <div class="toggleTrackCheck_eo2S"><span class="toggleIcon_IZdY">🌜</span></div>
+                            <div class="toggleTrackX_DWL4"><span class="toggleIcon_IZdY">🌞</span></div>
+                            <div class="toggleTrackThumb_urlX"></div>
+                        </div><input type="checkbox" class="toggleScreenReader_F9mL"
+                            aria-label="Switch between dark and light mode (currently light mode)">
+                    </div>
+                    <div class="navbar__search searchBarContainer_roih"><span class="searchBar_C_mW"
+                            style="position: relative; display: inline-block; direction: ltr;"><input placeholder="搜索"
+                                aria-label="Search" class="navbar__search-input input_o1gU" autocomplete="off"
+                                spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false"
+                                aria-owns="searchBar_C_mW-listbox-4" dir="auto"
+                                style="position: relative; vertical-align: top;">
+                            <pre aria-hidden="true"
+                                style="position: absolute; visibility: hidden; white-space: pre; font-family: Arial; font-size: 14.4px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: normal; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre>
+                            <span class="dropdownMenu_KVsh" role="listbox" id="searchBar_C_mW-listbox-4"
+                                style="position: absolute; top: 100%; z-index: 100; display: none; left: 0px; right: auto;">
+                                <div class="dataset_uSFS-5"></div>
+                            </span>
+                        </span>
+                        <div class="loadingRing_o9Ct searchBarLoadingRing_M2DY">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="searchHintContainer_FJVj"><kbd class="searchHint_n6p6">ctrl</kbd><kbd
+                                class="searchHint_n6p6">K</kbd></div>
+                    </div>
+                </div>
+            </div>
+            <div role="presentation" class="navbar-sidebar__backdrop"></div>
+            <div class="navbar-sidebar">
+                <div class="navbar-sidebar__brand"><a class="navbar__brand" href="https://modernjs.dev/">
+                        <div class="navbar__logo"><img src="./images/modernjs-logo.svg"
+                                alt="Modernjs Logo" class="themedImage_mZea themedImage--light_vuKz"></div>
+                    </a>
+                    <div class="toggle_kAJb navbarSidebarToggle_NVKs">
+                        <div class="toggleTrack_dk2J" role="button" tabindex="-1">
+                            <div class="toggleTrackCheck_eo2S"><span class="toggleIcon_IZdY">🌜</span></div>
+                            <div class="toggleTrackX_DWL4"><span class="toggleIcon_IZdY">🌞</span></div>
+                            <div class="toggleTrackThumb_urlX"></div>
+                        </div><input type="checkbox" class="toggleScreenReader_F9mL"
+                            aria-label="Switch between dark and light mode (currently light mode)">
+                    </div><button type="button" class="clean-btn navbar-sidebar__close"><svg viewBox="0 0 15 15"
+                            width="21" height="21">
+                            <g stroke="var(--ifm-color-emphasis-600)" stroke-width="1.2">
+                                <path d="M.75.75l13.5 13.5M14.25.75L.75 14.25"></path>
+                            </g>
+                        </svg></button>
+                </div>
+                <div class="navbar-sidebar__items">
+                    <div class="navbar-sidebar__item menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item"><a class="menu__link"
+                                    href="https://modernjs.dev/docs/start/mobile">开始</a></li>
+                            <li class="menu__list-item"><a class="menu__link"
+                                    href="https://modernjs.dev/docs/guides/overview">指南</a></li>
+                            <li class="menu__list-item"><a class="menu__link"
+                                    href="https://modernjs.dev/docs/apis/overview">API</a></li>
+                            <li class="menu__list-item"><a class="menu__link" href="https://modernjs.dev/blog">博客</a>
+                            </li>
+                            <li class="menu__list-item"><a class="menu__link"
+                                    href="https://modernjs.dev/coming-soon">社区</a></li>
+                            <li class="menu__list-item"><a href="https://github.com/modern-js-dev/modern.js"
+                                    target="_blank" rel="noopener noreferrer" class="menu__link header-github-link"
+                                    aria-label="GitHub repository"></a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-sidebar__item menu"><button type="button"
+                            class="clean-btn navbar-sidebar__back">← 返回主菜单</button></div>
+                </div>
+            </div>
+        </nav>
+        <div class="main-wrapper">
+            <div>
+                <header class="hero hero--primary heroBanner_qdFl"><img
+                        src="./images/modern-logo.svg" class="logo_Ukns">
+                    <h1 class="title_GqtP">现代 Web 工程体系</h1>
+                    <div class="buttons_AeoN"><a href="https://zhuanlan.zhihu.com/p/426707646" target="_blank"
+                            rel="noopener noreferrer" class="start_RUNT">介绍 <img width="20" height="20"
+                                class="start-arrow_Vk1p" src="./images/right-arrow.svg"></a><a
+                            class="doc-btn_gVIP" href="https://modernjs.dev/docs/start/mobile">快速开始 </a><a
+                            class="doc-btn_gVIP" href="https://modernjs.dev/docs/guides/overview">文档</a></div>
+                </header>
+            </div>
+            <div class="swiper swiper-initialized swiper-horizontal swiper-pointer-events navTabs_iZ7k">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide-active tab_He0c" style="width: 204.25px;"><a
+                            href="https://modernjs.dev/docs/start/mobile" style="text-decoration: none;">移动页面</a></div>
+                    <div class="swiper-slide swiper-slide-next tab_He0c" style="width: 204.25px;"><a
+                            href="https://modernjs.dev/docs/start/website" style="text-decoration: none;">响应式网站</a>
+                    </div>
+                    <div class="swiper-slide tab_He0c" style="width: 204.25px;"><a
+                            href="https://modernjs.dev/docs/start/admin" style="text-decoration: none;">中后台</a></div>
+                    <div class="swiper-slide tab_He0c" style="width: 204.25px;"><a
+                            href="https://modernjs.dev/docs/start/micro-frontend" style="text-decoration: none;">微前端</a>
+                    </div>
+                    <div class="swiper-slide tab_He0c" style="width: 204.25px;"><a
+                            href="https://modernjs.dev/docs/start/electron" style="text-decoration: none;">桌面应用</a>
+                    </div>
+                    <div class="swiper-slide tab_He0c" style="width: 204.25px;"><a
+                            href="https://modernjs.dev/docs/start/api-service" style="text-decoration: none;">API服务</a>
+                    </div>
+                    <div class="swiper-slide tab_He0c" style="width: 204.25px;"><a
+                            href="https://modernjs.dev/docs/start/library" style="text-decoration: none;">工具库</a></div>
+                    <div class="swiper-slide tab_He0c" style="width: 204.25px;"><a
+                            href="https://modernjs.dev/docs/start/component" style="text-decoration: none;">UI组件</a>
+                    </div>
+                </div>
+            </div>
+            <main class="homepage-main_G9x4">
+                <div class="features_invQ">
+                    <div class="titleWrap_U4TS">
+                        <h2 class="title_FZ2r">支持现代 Web 开发范式</h2><span class="seqNum_EWFy"><img class="seqImg_mGR4"
+                                src="./images/seq-wrap.png" alt=""><span
+                                class="num_V4LF">01</span></span>
+                    </div>
+                    <div class="card-list_AkDd"><a class="card_LAt6"
+                            </svg><span class="desc_XW35">客户端为中心的 Web 框架</span></a><a class="card_LAt6"
+                            </svg><span class="desc_XW35">JS 为中心、FP 优先的 GUI 软件研发技术栈</span></a><a class="card_LAt6"
+                            </svg><span class="desc_XW35">从「前后端分离」到「前后端一体化」</span></a><a class="card_LAt6"
+                            </svg><span class="desc_XW35">Serverless 优先</span></a><a class="card_LAt6"
+                            </svg><span class="desc_XW35">对 Web 应用开发的充分抽象</span></a><a class="card_LAt6"
+                            </svg><span class="desc_XW35">DX 和 UX 同时最大化</span></a><a class="card_LAt6"
+                            </svg><span class="desc_XW35">智能化</span></a><a class="card_LAt6"
+                            </svg><span class="desc_XW35">平台化</span></a><a class="card_LAt6"
+                            </svg><span class="desc_XW35">低码化</span></a></div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="./images/runtime_main.35d88778.js.下载"></script>
+    <script src="./images/main.66c965bf.js.下载"></script>
+
+</body>
+
+</html>
